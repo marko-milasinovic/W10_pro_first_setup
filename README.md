@@ -10,7 +10,7 @@
 
 # Requirements
 1) Windows 10 Enterprise Pro image
-[Windows Media Creation tool](https://www.microsoft.com/en-us/software-download/windows10) (Freeware) - 
+[Windows Media Creation tool](https://www.microsoft.com/en-us/software-download/windows10) (Freeware) - For downloading and imaging the USB
 2) USB drive with at least 8GiB, final image file size on flash drive is ~4.8 GiB.
 
 
@@ -20,6 +20,8 @@ Decline all privacy promps.
 
 
 ## DefaultApplications
+
+Run the following command in **Windows Powershell** (as an **administrator**):
 
  ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
