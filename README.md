@@ -21,6 +21,7 @@ Decline all privacy promps.
 
 ## DefaultApplications
 * Chocolatey (FOSS) - Software management solution
+
 Run the following command in **Windows Powershell** (as an **administrator**):
 
  ```
