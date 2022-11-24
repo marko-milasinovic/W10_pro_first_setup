@@ -18,6 +18,13 @@
 After inserting the usb with the windows image, choose Windows 10 Pro (not the "n" version which doesn't have ms media framework)
 Decline all privacy promps.
 
+## System changes
+Enter the following query into windows search:
+```
+Edit Power Plan
+```
+* Start > Edit Power Plan > Select High performance > Change plan settings > Change advanced power settings > Processor power management > Maximum processor state: 99%
+  * File explorer Address bar: Navigate to Power options > Left side menu: Choose what the power buttons do > Change settings that are currently unavailable > Disable: Turn on fast startup; Enable sleep.
 
 ## DefaultApplications
 * Chocolatey (FOSS) - Software management solution
