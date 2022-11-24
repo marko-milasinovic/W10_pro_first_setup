@@ -75,3 +75,5 @@ sc config XboxGipSvc start= disabled & sc config xboxgip start= disabled & sc co
 ```
 <p>
 
+## Drivers
+Install Intel / Amd drivers depending on the CPU manufacturer.
