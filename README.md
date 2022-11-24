@@ -31,8 +31,8 @@ choco install mpv
 ```
 * [Clementine](https://github.com/clementine-player/Clementine/releases/latest) (FOSS) - A "winamp" style music player
 * [GreenShot](https://getgreenshot.org/downloads/) (FOSS) - A screenshot tool
-* * [qimgv](https://github.com/easymodo/qimgv/releases/latest) (FOSS) - Image viewer
-* * [KeePass](https://keepass.info/download.html) (FOSS) - light-weight password manager
+* [qimgv](https://github.com/easymodo/qimgv/releases/latest) (FOSS) - Image viewer
+* [KeePass](https://keepass.info/download.html) (FOSS) - light-weight password manager
 * [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) (FOSS) - multifunctional code/text editor
 * [Revo Uninstaller](https://www.revouninstaller.com/start-freeware-download/) (Shareware) - advanced program uninstaller
 * [7-zip regular](https://github.com/mcmilk/7-Zip-zstd/releases/latest) - file archiver with additional functions (eg. hash verification)
@@ -40,8 +40,10 @@ choco install mpv
 * [Adobe Reader](https://get.adobe.com/reader/download?os=Windows+10&name=Reader+DC+2022.002.20191+English+Windows%2864Bit%29&lang=en&nativeOs=Windows+10&accepted=&declined=mss%2Cmsc%2Ccr&preInstalled=&site=otherversions) (Freeware) - Propriatery pdf reader
 
 
-## Browsers
+## Web browser
 * [Google Chrome](https://www.google.com/intl/en/chrome/?standalone=1) (Freeware) - made by Google, based on the Chromium engine
+After installing change the following:
+Chrome > Settings > System > Continue running background apps when Google Chrome is closed > **OFF**
 
 
 ### Browser extensions
@@ -49,10 +51,11 @@ choco install mpv
 * [HTTPS Everywhere](https://www.eff.org/https-everywhere/) (FOSS) - encrypts your communications with many major websites
 * [ClearUrls](https://gitlab.com/KevinRoebert/ClearUrls) (FOSS) - based on the new WebExtensions technology, automatically removes tracking elements from URLs
 
+
 ## Services
-Usefull [wiki](http://revertservice.com/10/) website for W10 service documentation
+Usefull [wiki](http://revertservice.com/10/) website for Windows 10 service documentation
 <p>
-Run the following command in Command Prompt (as an administrator):
+Run the following command in **Command Prompt** (as an administrator):
 
 ```
 sc config XboxGipSvc start= disabled & sc config xboxgip start= disabled & sc config xbgm start=disabled & sc config XblAuthManager start= disabled & sc config XblGameSave start=disabled & sc config workfolderssvc start= disabled & sc config wuauserv start= disabled & sc config WinRM start= disabled & sc config icssvc start= disabled & sc config WMPNetworkSvc start= disabled & sc config wisvc start= disabled & sc config SharedRealitySvc start= disabled & sc config RetailDemo start= disabled & sc config RetailDemo start= disabled & sc config RemoteAccess start= disabled & sc config shpamsvc start= disabled & sc config WFDSConMgrSvc start= disabled & sc config WFDSConMgrSvc start= disabled
