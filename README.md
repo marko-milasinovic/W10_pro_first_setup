@@ -28,6 +28,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 * MPV (FOSS) optimised and simple media player | [Manual / wiki](https://mpv.io/manual/stable/#keyboard-control)
+Run the following command in **Command Prompt**:
 ```
 choco install mpv
 ```
