@@ -20,14 +20,14 @@ Decline all privacy promps.
 
 
 ## DefaultApplications
-
+* Chocolatey (FOSS) - Software management solution
 Run the following command in **Windows Powershell** (as an **administrator**):
 
  ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
-* Chocolatey (FOSS) - Software management solution
-  * MPV (FOSS) optimised and simple media player | [Manual / wiki](https://mpv.io/manual/stable/#keyboard-control)
+
+* MPV (FOSS) optimised and simple media player | [Manual / wiki](https://mpv.io/manual/stable/#keyboard-control)
 ```
 choco install mpv
 ```
